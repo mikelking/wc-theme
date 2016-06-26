@@ -1,0 +1,656 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+/** Schedule */
+.wcpt-schedule {
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 20px;
+    width: 100%;
+    font-size: .8em !important;
+    table-layout: fixed;
+}
+
+.wcpt-schedule a {
+    text-decoration: none;
+}
+
+.wcpt-schedule th {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wcpt-schedule td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    word-break: keep-all;
+}
+
+.wcpt-col-time {
+    width: 15%;
+}
+
+.wcpt-session-type-session {
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+
+.wcpt-session-type-custom {
+    background-color: #d8d8d8;
+    padding: 10px;
+}
+
+.wcpt-session-title {
+    clear: both;
+}
+
+span.wcpt-session-speakers {
+    display: block;
+    margin-top: 1em;
+}
+
+span.wcpt-session-speakers:before {
+    content: "Presented by: ";
+    display: block;
+    clear: both;
+    font-style: italic;
+}
+
+.wcb-session-free-software-free-labor-and-the-freelancer-the-economics-of-contributing .wcpt-session-title:before {
+    content: "Keynote: ";
+    font-style: italic;
+    color: #2b2b2b;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+.widget .widget-title, .comment-form label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none; }
+
+.site {
+  background-color: transparent; }
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+:-moz-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+::-moz-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */ }
+
+:-ms-input-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+.site-title, .main-navigation, .page-title, .pagination, .post-navigation, .post-navigation .post-title, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+  font-family: inherit; }
+
+.page-header, .widget, .pagination, .post-navigation, .post-navigation div + div, .comments-title, .comment-reply-title {
+  border: 0; }
+
+table {
+  table-layout: initial;
+  border: 0; }
+  table th, table td {
+    border: 0; }
+
+.tix-column-description {
+  max-width: 300px; }
+
+.tix-column-price {
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 100px; }
+
+.tix-column-remaining {
+  display: none; }
+
+.tix-column-quantity {
+  text-align: right; }
+
+body button,
+body button[disabled]:hover,
+body button[disabled]:focus,
+body input[type="button"],
+body input[type="button"][disabled]:hover,
+body input[type="button"][disabled]:focus,
+body input[type="reset"],
+body input[type="reset"][disabled]:hover,
+body input[type="reset"][disabled]:focus,
+body input[type="submit"],
+body input[type="submit"][disabled]:hover,
+body input[type="submit"][disabled]:focus {
+  font-family: inherit;
+  text-transform: none;
+  font-weight: 400;
+  background-color: #9a0e21;
+  color: #f5f7fa; }
+body input[type="text"],
+body input[type="email"],
+body input[type="url"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="number"],
+body textarea {
+  background-color: #f5f7fa; }
+  body input[type="text"]:focus,
+  body input[type="email"]:focus,
+  body input[type="url"]:focus,
+  body input[type="password"]:focus,
+  body input[type="search"]:focus,
+  body input[type="tel"]:focus,
+  body input[type="number"]:focus,
+  body textarea:focus {
+    background-color: #f5f7fa;
+    border-color: #b1b7bd; }
+
+body {
+  background-color: #f5f7fa; }
+
+body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+  display: none; }
+
+.site {
+  margin-top: 0; }
+  .site:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 32%;
+    background-color: #114880;
+    background-image: url("https://2016.nyc.wordcamp.org/files/2016/04/un-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.site-inner {
+  max-width: 85em; }
+
+.site-content {
+  padding-top: 5em; }
+
+.site-content, .site-footer {
+  background-color: #ffffff; }
+
+.site-header-main {
+  flex-direction: column;
+  position: relative; }
+
+.site-branding {
+  width: 100%;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  .site-branding .site-title {
+    margin: 0 auto;
+    width: 30%;
+    max-width: 250px;
+    margin-bottom: 0; }
+    .site-branding .site-title:before {
+      content: '';
+      display: block;
+      height: 0;
+      padding-bottom: 67.30769%;
+      background-image: url("https://2016.nyc.wordcamp.org/files/2016/05/wcnyc-logo.png");
+      background-size: cover; }
+  .site-branding a, .site-branding .site-description {
+    position: absolute;
+    left: -1000px; }
+
+.site-header {
+  padding: 0; }
+  @media (min-width: 61.5625em) {
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 56.875em) {
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 48.9375em) {
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 44.375em) {
+    .site-header {
+      padding: 0; } }
+
+.site-header-menu {
+  padding: 0.75em 4.5455%;
+  width: 100%;
+  background-color: #1eb0a1; }
+  @media (max-width: 44.375em) {
+    .site-header-menu {
+      margin: 0;
+      padding: 0; } }
+  @media (min-width: 48.9375em) {
+    .site-header-menu {
+      margin-bottom: 0;
+      margin-top: 0; } }
+
+.menu-toggle {
+  margin: 0;
+  border: 0;
+  background-color: #1eb0a1;
+  color: #f5f7fa;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-self: flex-end; }
+  .menu-toggle:hover {
+    background-color: #1eb0a1;
+    color: #dde4ee; }
+
+.main-navigation a {
+  color: #f5f7fa; }
+.main-navigation a:hover, .main-navigation li:hover > a, .main-navigation li.focus > a {
+  color: #dde4ee; }
+@media (max-width: 44.375em) {
+  .main-navigation .sub-menu {
+    margin-left: 0; } }
+.main-navigation .sub-menu a {
+  color: #1eb0a1; }
+  .main-navigation .sub-menu a:hover {
+    color: #199185; }
+  @media (max-width: 44.375em) {
+    .main-navigation .sub-menu a {
+      color: #f5f7fa; }
+      .main-navigation .sub-menu a:hover {
+        color: #199185; } }
+.main-navigation .dropdown-toggle {
+  color: #f5f7fa; }
+@media (max-width: 44.375em) {
+  .main-navigation .menu-item {
+    padding: 0 4.5455%; }
+    .main-navigation .menu-item .menu-item-has-children {
+      padding: 0; }
+    .main-navigation .menu-item li {
+      border: 0; } }
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #656b70; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400; }
+  .entry-content h1, .entry-content
+  h2, .entry-content
+  h3, .entry-content
+  h4, .entry-content
+  h5, .entry-content
+  h6 {
+    font-weight: 400; }
+
+.site-title, .page-title, .entry-title, .post-navigation, .post-navigation .post-title, .comments-title, .comment-reply-title {
+  font-weight: 400;
+  color: #114880; }
+  .site-title a, .page-title a, .entry-title a, .post-navigation a, .post-navigation .post-title a, .comments-title a, .comment-reply-title a {
+    color: #114880; }
+    .site-title a:hover, .page-title a:hover, .entry-title a:hover, .post-navigation a:hover, .post-navigation .post-title a:hover, .comments-title a:hover, .comment-reply-title a:hover {
+      color: #0b2f53; }
+
+.widget .widget-title, .comment-form label {
+  color: #114880; }
+
+a {
+  color: #1eb0a1; }
+  a:hover {
+    color: #178479; }
+
+.security-warning {
+  color: #9a0e21;
+  font-weight: 700; }
+
+/*# sourceMappingURL=wcnyc-2016.css.map */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+/* line 11, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_helpers.scss */
+.widget .widget-title, .comment-form label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none; }
+
+/* line 1, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.site {
+  background-color: transparent; }
+
+/* Placeholder text color -- selectors need to be separate to work. */
+/* line 6, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+::-webkit-input-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+/* line 11, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+:-moz-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+/* line 16, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+::-moz-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */ }
+
+/* line 23, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+:-ms-input-placeholder {
+  color: #656b70;
+  font-family: "Open Sans", sans-serif; }
+
+/* line 28, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.site-title, .main-navigation, .page-title, .pagination, .post-navigation, .post-navigation .post-title, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+  font-family: inherit; }
+
+/* line 32, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.page-header, .widget, .pagination, .post-navigation, .post-navigation div + div, .comments-title, .comment-reply-title {
+  border: 0; }
+
+/* line 36, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+table {
+  table-layout: initial;
+  border: 0; }
+  /* line 40, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+  table th, table td {
+    border: 0; }
+
+/* line 45, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.tix-column-description {
+  max-width: 300px; }
+
+/* line 49, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.tix-column-price {
+  padding-left: 2em;
+  padding-right: 2em;
+  max-width: 100px; }
+
+/* line 55, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.tix-column-remaining {
+  display: none; }
+
+/* line 59, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_2016-overrides.scss */
+.tix-column-quantity {
+  text-align: right; }
+
+/* line 2, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_forms.scss */
+body button,
+body button[disabled]:hover,
+body button[disabled]:focus,
+body input[type="button"],
+body input[type="button"][disabled]:hover,
+body input[type="button"][disabled]:focus,
+body input[type="reset"],
+body input[type="reset"][disabled]:hover,
+body input[type="reset"][disabled]:focus,
+body input[type="submit"],
+body input[type="submit"][disabled]:hover,
+body input[type="submit"][disabled]:focus {
+  font-family: inherit;
+  text-transform: none;
+  font-weight: 400;
+  background-color: #9a0e21;
+  color: #f5f7fa; }
+
+/* line 21, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_forms.scss */
+body input[type="text"],
+body input[type="email"],
+body input[type="url"],
+body input[type="password"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="number"],
+body textarea {
+  background-color: #f5f7fa; }
+  /* line 31, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/_forms.scss */
+  body input[type="text"]:focus,
+  body input[type="email"]:focus,
+  body input[type="url"]:focus,
+  body input[type="password"]:focus,
+  body input[type="search"]:focus,
+  body input[type="tel"]:focus,
+  body input[type="number"]:focus,
+  body textarea:focus {
+    background-color: #f5f7fa;
+    border-color: #b1b7bd; }
+
+/* line 15, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+body {
+  background-color: #f5f7fa; }
+
+/* line 19, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+  display: none; }
+
+/* line 23, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site {
+  margin-top: 0; }
+  /* line 26, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .site:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 32%;
+    background-color: #114880;
+    background-image: url("https://2016.nyc.wordcamp.org/files/2016/04/un-hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/* line 42, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-inner {
+  max-width: 85em; }
+
+/* line 46, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-content {
+  padding-top: 5em; }
+
+/* line 50, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-content, .site-footer {
+  background-color: #ffffff; }
+
+/* line 54, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-header-main {
+  flex-direction: column;
+  position: relative; }
+
+/* line 59, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-branding {
+  width: 100%;
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 4%; }
+  /* line 65, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .site-branding .site-title {
+    margin: 0 auto;
+    width: 30%;
+    max-width: 250px;
+    margin-bottom: 0; }
+    /* line 71, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-branding .site-title:before {
+      content: '';
+      display: block;
+      height: 0;
+      padding-bottom: 67.30769%;
+      background-image: url("https://2016.nyc.wordcamp.org/files/2016/05/wcnyc-logo.png");
+      background-size: cover; }
+  /* line 81, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .site-branding a, .site-branding .site-description {
+    position: absolute;
+    left: -1000px; }
+
+/* line 87, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-header {
+  padding: 0; }
+  @media (min-width: 61.5625em) {
+    /* line 87, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 56.875em) {
+    /* line 87, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 48.9375em) {
+    /* line 87, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header {
+      padding: 0; } }
+  @media (min-width: 44.375em) {
+    /* line 87, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header {
+      padding: 0; } }
+
+/* line 107, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-header-menu {
+  padding: 0.75em 4.5455%;
+  width: 100%;
+  background-color: #1eb0a1; }
+  @media (max-width: 44.375em) {
+    /* line 107, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header-menu {
+      margin: 0;
+      padding: 0; } }
+  @media (min-width: 48.9375em) {
+    /* line 107, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-header-menu {
+      margin-bottom: 0;
+      margin-top: 0; } }
+
+/* line 123, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.menu-toggle {
+  margin: 0;
+  border: 0;
+  background-color: #1eb0a1;
+  color: #f5f7fa;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-self: flex-end; }
+  /* line 133, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .menu-toggle:hover {
+    background-color: #1eb0a1;
+    color: #dde4ee; }
+
+/* line 141, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.main-navigation a {
+  color: #f5f7fa; }
+
+/* line 145, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.main-navigation a:hover, .main-navigation li:hover > a, .main-navigation li.focus > a {
+  color: #dde4ee; }
+
+@media (max-width: 44.375em) {
+  /* line 149, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .main-navigation .sub-menu {
+    margin-left: 0; } }
+
+/* line 155, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.main-navigation .sub-menu a {
+  color: #1eb0a1; }
+  /* line 158, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .main-navigation .sub-menu a:hover {
+    color: #199185; }
+  @media (max-width: 44.375em) {
+    /* line 155, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .main-navigation .sub-menu a {
+      color: #f5f7fa; }
+      /* line 165, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+      .main-navigation .sub-menu a:hover {
+        color: #199185; } }
+
+/* line 171, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.main-navigation .dropdown-toggle {
+  color: #f5f7fa; }
+
+@media (max-width: 44.375em) {
+  /* line 176, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .main-navigation .menu-item {
+    padding: 0 4.5455%; }
+    /* line 179, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .main-navigation .menu-item .menu-item-has-children {
+      padding: 0; }
+    /* line 183, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .main-navigation .menu-item li {
+      border: 0; } }
+
+/* line 190, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #656b70; }
+
+/* line 201, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400; }
+  /* line 209, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .entry-content h1, .entry-content
+  h2, .entry-content
+  h3, .entry-content
+  h4, .entry-content
+  h5, .entry-content
+  h6 {
+    font-weight: 400; }
+
+/* line 214, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.site-title, .page-title, .entry-title, .post-navigation, .post-navigation .post-title, .comments-title, .comment-reply-title {
+  font-weight: 400;
+  color: #114880; }
+  /* line 218, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  .site-title a, .page-title a, .entry-title a, .post-navigation a, .post-navigation .post-title a, .comments-title a, .comment-reply-title a {
+    color: #114880; }
+    /* line 221, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+    .site-title a:hover, .page-title a:hover, .entry-title a:hover, .post-navigation a:hover, .post-navigation .post-title a:hover, .comments-title a:hover, .comment-reply-title a:hover {
+      color: #0b2f53; }
+
+/* line 227, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.widget .widget-title, .comment-form label {
+  color: #114880; }
+
+/* line 232, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+a {
+  color: #1eb0a1; }
+  /* line 235, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+  a:hover {
+    color: #178479; }
+
+/* line 240, /Volumes/Data/Users/miking/Projects/git/wc-theme/app/sass/wcnyc-2016.scss */
+.security-warning {
+  color: #9a0e21;
+  font-weight: 700; }
+
+
+/*# sourceMappingURL=main.css.map*/

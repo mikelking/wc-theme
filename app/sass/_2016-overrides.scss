@@ -1,0 +1,61 @@
+.site {
+    background-color: transparent;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+:-moz-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+::-moz-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+    opacity: 1;
+    /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+    color: $medium-grey;
+    font-family: $font-stack;
+}
+
+.site-title, .main-navigation, .page-title, .pagination, .post-navigation, .post-navigation .post-title, .entry-title, .entry-footer, .widget .widget-title, .comments-title, .comment-reply-title, .comment-form label {
+    font-family: inherit;
+}
+
+.page-header, .widget, .pagination, .post-navigation, .post-navigation div + div, .comments-title, .comment-reply-title {
+    border: 0;
+}
+
+table {
+    table-layout: initial;
+    border: 0;
+
+    th, td {
+        border: 0;
+    }
+}
+
+.tix-column-description {
+    max-width: 300px;
+}
+
+.tix-column-price {
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 100px;
+}
+
+.tix-column-remaining {
+    display: none;
+}
+
+.tix-column-quantity {
+    text-align: right;
+}

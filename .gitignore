@@ -13,6 +13,7 @@ node_modules/
 .sass-cache/
 debug.log
 style_closet
+.node_mdules
 
 # wordpress specific
 wp-config.php

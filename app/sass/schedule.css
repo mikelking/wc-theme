@@ -1,0 +1,65 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+/** Schedule */
+.wcpt-schedule {
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 20px;
+    width: 100%;
+    font-size: .8em !important;
+    table-layout: fixed;
+}
+
+.wcpt-schedule a {
+    text-decoration: none;
+}
+
+.wcpt-schedule th {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wcpt-schedule td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1em;
+    word-break: keep-all;
+}
+
+.wcpt-col-time {
+    width: 15%;
+}
+
+.wcpt-session-type-session {
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+
+.wcpt-session-type-custom {
+    background-color: #d8d8d8;
+    padding: 10px;
+}
+
+.wcpt-session-title {
+    clear: both;
+}
+
+span.wcpt-session-speakers {
+    display: block;
+    margin-top: 1em;
+}
+
+span.wcpt-session-speakers:before {
+    content: "Presented by: ";
+    display: block;
+    clear: both;
+    font-style: italic;
+}
+
+.wcb-session-free-software-free-labor-and-the-freelancer-the-economics-of-contributing .wcpt-session-title:before {
+    content: "Keynote: ";
+    font-style: italic;
+    color: #2b2b2b;
+}
