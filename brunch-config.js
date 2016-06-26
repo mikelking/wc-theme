@@ -1,7 +1,7 @@
 module.exports = {
   files: {
     stylesheets: {
-        joinTo: 'wp-content/themes/wcnyc/style.css'
+        joinTo: 'main-wcnyc-2016.css'
         }
   },
 };
